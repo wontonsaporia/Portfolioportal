@@ -13,7 +13,7 @@ export default function Projects() {
         </span>
       </div>
       <p className="section__lead">
-        進行中の構想・試作・研究。完成物ではなく、過程そのものを記録します。
+        進行中の構想・試作・研究。
         <span className="status status--ongoing" style={{ marginLeft: ".6rem" }}>
           <span className="status__dot" /> 進行中
         </span>

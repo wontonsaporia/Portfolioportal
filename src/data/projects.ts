@@ -10,7 +10,7 @@ export const projects: Item[] = [
     category: "Game",
     status: "ongoing",
     description:
-      "チェスとルービックキューブの機構を組み合わせた戦略パズル。Unity 6.4。v1は機能完成済みで、次はストア配信。",
+      "チェスとルービックキューブの機構を組み合わせた戦略パズル。Unity 6.4。v1は機能完成済みで、ストア配信しています。",
     tags: ["Unity", "strategy", "puzzle"],
     featured: true,
   },
@@ -26,7 +26,7 @@ export const projects: Item[] = [
   {
     id: "nana-ni-notte",
     title: "ナナにのって",
-    year: "2024—",
+    year: "2021—",
     category: "Game",
     status: "ongoing",
     description: "進行中のゲーム制作。",
@@ -34,12 +34,12 @@ export const projects: Item[] = [
   },
   {
     id: "financial-meteorology",
-    title: "金融気象学",
+    title: "financial-meteorology",
     year: "進行中",
     category: "Research",
     status: "ongoing",
-    description: "金融時系列を気象になぞらえて読むための覚書と試作の蓄積。",
-    tags: ["research", "time-series"],
+    description: "気象予報に使われるEnkf等の手法で金融市場の状態推定を試みる研究プロジェクト。",
+    tags: ["research", "estimation"],
     featured: true,
   },
   {
@@ -48,18 +48,10 @@ export const projects: Item[] = [
     year: "進行中",
     category: "Research",
     status: "ongoing",
-    description: "状態推定の基礎を、実装しながら自分の言葉で整理する学習ログ。",
+    description: "状態推定の基礎を、実装しながら学ぶことができるプラットフォームの制作",
     tags: ["research", "estimation"],
   },
-  {
-    id: "homeland-body",
-    title: "祖国と身体に関する制作リサーチ",
-    year: "進行中",
-    category: "Research",
-    status: "ongoing",
-    description: "祖国・身体・記憶をめぐる制作のためのリサーチノート。",
-    tags: ["research", "art"],
-  },
+ 
   {
     id: "art-team-building",
     title: "アート×チームビルディング",
@@ -70,15 +62,7 @@ export const projects: Item[] = [
       "アート制作を軸にした企業向けチームビルディング・プログラムの設計と提案。",
     tags: ["教育", "team-building", "OYAA"],
   },
-  {
-    id: "okinawa-emaki",
-    title: "沖縄絵巻ワークショップ",
-    year: "2025",
-    category: "Workshop",
-    status: "prototype",
-    description: "沖縄の風景や物語を絵巻形式でつくるワークショップの構想。",
-    tags: ["教育", "沖縄", "絵巻"],
-  },
+
   {
     id: "teaching-portal",
     title: "GitHub Pages 教材ポータル",

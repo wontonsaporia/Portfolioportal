@@ -36,7 +36,7 @@ export default function Home() {
       <section className="wrap section">
         <div className="section__head">
           <h2 className="section__title">Selected</h2>
-          <span className="section__count">注目 / {featured.length} 件</span>
+          <span className="section__count"> / {featured.length} 件</span>
         </div>
         <div className="grid">
           {featured.map((item) => (
