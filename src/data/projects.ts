@@ -1,0 +1,101 @@
+import type { Item } from "./types";
+
+// In-progress constructions, prototypes, and long-running research. The status
+// field drives the catalog marks (進行中 / 試作 …), so keep it accurate.
+export const projects: Item[] = [
+  {
+    id: "cube-campaign",
+    title: "CUBE CAMPAIGN",
+    year: "2025—",
+    category: "Game",
+    status: "ongoing",
+    description:
+      "チェスとルービックキューブの機構を組み合わせた戦略パズル。Unity 6.4。v1は機能完成済みで、次はストア配信。",
+    tags: ["Unity", "strategy", "puzzle"],
+    featured: true,
+  },
+  {
+    id: "rubik-chess",
+    title: "Rubik Chess",
+    year: "2025",
+    category: "Game",
+    status: "prototype",
+    description: "盤面を回転させる発想を出発点にしたチェス系の試作。CUBE CAMPAIGNの源流。",
+    tags: ["prototype", "board-game"],
+  },
+  {
+    id: "nana-ni-notte",
+    title: "ナナにのって",
+    year: "2024—",
+    category: "Game",
+    status: "ongoing",
+    description: "進行中のゲーム制作。",
+    tags: ["game", "wip"],
+  },
+  {
+    id: "terraforming-ai",
+    title: "テラフォーミングAI選別世界",
+    year: "2025",
+    category: "Game",
+    status: "prototype",
+    description:
+      "AIによる選別をテーマにしたシミュレーション企画（WORLD と CIVI の二層構想）。",
+    tags: ["simulation", "concept"],
+  },
+  {
+    id: "kinyu-kishougaku",
+    title: "金融気象学",
+    year: "進行中",
+    category: "Research",
+    status: "ongoing",
+    description: "金融時系列を気象になぞらえて読むための覚書と試作の蓄積。",
+    tags: ["research", "time-series"],
+    featured: true,
+  },
+  {
+    id: "kalman-filter",
+    title: "カルマンフィルタ入門",
+    year: "進行中",
+    category: "Research",
+    status: "ongoing",
+    description: "状態推定の基礎を、実装しながら自分の言葉で整理する学習ログ。",
+    tags: ["research", "estimation"],
+  },
+  {
+    id: "homeland-body",
+    title: "祖国と身体に関する制作リサーチ",
+    year: "進行中",
+    category: "Research",
+    status: "ongoing",
+    description: "祖国・身体・記憶をめぐる制作のためのリサーチノート。",
+    tags: ["research", "art"],
+  },
+  {
+    id: "art-team-building",
+    title: "アート×チームビルディング",
+    year: "2025—",
+    category: "Workshop",
+    status: "ongoing",
+    description:
+      "アート制作を軸にした企業向けチームビルディング・プログラムの設計と提案。",
+    tags: ["教育", "team-building", "OYAA"],
+  },
+  {
+    id: "okinawa-emaki",
+    title: "沖縄絵巻ワークショップ",
+    year: "2025",
+    category: "Workshop",
+    status: "prototype",
+    description: "沖縄の風景や物語を絵巻形式でつくるワークショップの構想。",
+    tags: ["教育", "沖縄", "絵巻"],
+  },
+  {
+    id: "teaching-portal",
+    title: "GitHub Pages 教材ポータル",
+    year: "進行中",
+    category: "Web/Tool",
+    status: "ongoing",
+    description: "授業・講座の教材を一箇所に集約する静的サイト型のポータル。",
+    tags: ["web", "教育", "static-site"],
+  },
+];
