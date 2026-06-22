@@ -11,7 +11,7 @@ export const site = {
     
   // Footer / About contact links. Replace with your real URLs.
   contacts: [
-    { label: "Email", url: "kouoishi01@outlook.jp" },
+    { label: "Email", url: "" },
     { label: "GitHub", url: "https://github.com/wontonsaporia" },
     { label: "X", url: "https://x.com/" },
   ],
