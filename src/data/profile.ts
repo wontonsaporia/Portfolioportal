@@ -10,9 +10,9 @@ export const site = {
     "アート、3DCG、ゲーム開発、教育実践、研究ノートを横断して活動しています。完成物だけでなく、企画・試作・思考の過程も同じ価値の成果物として記録する場所です。",
   // Footer / About contact links. Replace with your real URLs.
   contacts: [
-    { label: "Email", url: "mailto:you@example.com" },
-    { label: "GitHub", url: "https://github.com/your-handle" },
-    { label: "X", url: "https://x.com/your-handle" },
+    { label: "Email", url: "kouoishi01@outlook.jp" },
+    { label: "GitHub", url: "https://github.com/wontonsaporia" },
+    { label: "X", url: "https://x.com/" },
   ],
 };
 

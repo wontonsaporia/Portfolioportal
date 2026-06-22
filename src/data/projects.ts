@@ -33,17 +33,7 @@ export const projects: Item[] = [
     tags: ["game", "wip"],
   },
   {
-    id: "terraforming-ai",
-    title: "テラフォーミングAI選別世界",
-    year: "2025",
-    category: "Game",
-    status: "prototype",
-    description:
-      "AIによる選別をテーマにしたシミュレーション企画（WORLD と CIVI の二層構想）。",
-    tags: ["simulation", "concept"],
-  },
-  {
-    id: "kinyu-kishougaku",
+    id: "financial-meteorology",
     title: "金融気象学",
     year: "進行中",
     category: "Research",
