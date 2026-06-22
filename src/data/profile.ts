@@ -4,8 +4,8 @@ export const site = {
   // Wordmark in the nav. Keep it short.
   mark: "KO",
   // Hero statement, split into lines for the display type.
-  statementLines: ["立って半畳、寝て一畳。"],
-  eyebrow: "制作 / 教育 / 研究 — 活動の四畳半",
+  statementLines: ["立って半畳、", "寝て一畳。"],
+  eyebrow: "制作 / 教育 / 研究 — 活動一畳半",
   intro:
     "アート、3DCG、ゲーム開発、教育実践、研究ノートを横断して活動しています。完成物だけでなく、企画・試作・思考の過程も同じ価値の成果物として記録する場所です。",
   // Footer / About contact links. Replace with your real URLs.
@@ -32,8 +32,8 @@ export const about = {
   ],
   // Free-form, label → value. Edit freely.
   areasOfWork: ["アート / 日本画", "3DCG / モデリング", "ゲーム開発", "教育・講座設計", "研究ノート"],
-  tools: ["Unity", "Blender", "NomadSculpt", "Figma", "Obsidian", "React / Vite"],
-  interests: ["情報設計", "可視化", "哲学", "アニメ", "ゲームデザイン"],
+  tools: ["Unity", "Blender", "NomadSculpt", "Figma", "Procreate", "C++", "React / Vite"],
+  interests: ["日本画", "分析美学", "リアリティ番組", "ゲームデザイン"],
   history: [
     { year: "現在", text: "沖縄県立芸術大学絵画専攻非常勤講師, OYAA講師（３DCG）" },
     { year: "—", text: "ゲーム開発（CUBE CAMPAIGN ほか）と研究ノートを並行して継続。" },
