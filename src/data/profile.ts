@@ -7,8 +7,8 @@ export const site = {
   statementLines: ["立って半畳、", "寝て一畳。"],
   eyebrow: "制作 / 教育 / 研究 — 活動一畳半",
   intro:
-    "アート、3DCG、ゲーム開発、教育実践、研究ノートを横断して活動しています。", "完成物だけでなく、企画・試作・思考の過程も記録しとります。",
-    
+    "アート、3DCG、ゲーム開発、教育実践、研究ノートを横断して活動しています。完成物だけでなく、企画・試作・思考の過程も記録しとります。",
+
   // Footer / About contact links. Replace with your real URLs.
   contacts: [
     { label: "Email", url: "" },
